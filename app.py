@@ -6,6 +6,9 @@ app = Flask(__name__)
 def home():
     return "Hello, your Appointment Booking System is live!"
 
+if __name__ == "__main__":
+    app.run(debug=True)
+
 # Sample in-memory data store
 appointments = []
 
